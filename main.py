@@ -15,9 +15,9 @@ with open("token.txt", "r") as file:
 token = (tkn)
 prefix = (".")
 
-channelname = input('[OPCIONES] Escribe un nombre para los canales > ')
-rolename = input('[OPCIONES] Escribe el nombre de los roles a crear > ')
-raidmsg = input('[OPCIONES] Introduce el mensaje a ser spameado > ')
+channelname = input('[OPTIONS] Input a channel name: ')
+rolename = input('[OPTIONS] Input a role name: ')
+raidmsg = input('[OPTIONS] Input a message content: ')
 
 channel_names = (channelname, channelname)
 role_names = (rolename, rolename)
@@ -58,10 +58,10 @@ def menu():
 		 ╚═══██╗██╔══╝  ██╔══██╗ ╚████╔╝ ██╔══╝  ██╔══██╗  ██║╚████║██║   ██║██╔═██╗░██╔══╝  ██╔══██╗
 		██████╔╝███████╗██║  ██║  ╚██╔╝  ███████╗██║  ██║  ██║ ╚███║╚██████╔╝██║ ╚██╗███████╗██║  ██║
 		╚═════╝ ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═╝  ╚═╝  ╚═╝  ╚══╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝\n\n""")
-	logging.info(f"\033[38;5;91mComandos: {prefix}nuke ~ {prefix}massban ~ {prefix}pings ~ {prefix}start")
+	logging.info(f"\033[38;5;91mCommands: {prefix}nuke ~ {prefix}massban ~ {prefix}pings ~ {prefix}start")
 	logging.info(f"\033[38;5;91mBot: {bot.user}")
 	logging.info(f"\033[38;5;91mPrefix: {prefix}")
-	logging.info(f"\033[38;5;91mCodigo por discord.gg/antiplague modificado por PanaBruuh#0833")
+	logging.info(f"\033[38;5;91mCode by discord.gg/antiplague modified by PanaBruuh#0833")
 	
 
 @bot.event
