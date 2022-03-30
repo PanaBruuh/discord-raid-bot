@@ -1,6 +1,6 @@
 # Discord RBOT
 
-[![example.png]()
+[![example.png](https://imgur.com/a/eMJTiTF)
 
 > This is a ReadMe template to help save you time and effort.
 
